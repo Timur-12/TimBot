@@ -14,7 +14,7 @@ client.on('ready', () => {
 })
 
 client.on('messageDelete', msg => {
-    msg.channel.send(`${msg.author} Mesaj Silme!`);
+    msg.channel.send(`${msg.member} Mesaj Silme!`);
 })
 
 client.on('message', msg => {
